@@ -1,0 +1,125 @@
+/**********************************************
+ESTRUCTURA GENERAL (ESTILO OREGON PRODUCTS)
+**********************************************/
+#container {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    background-color: #0f4d1a;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 24px;
+}
+
+
+#section {
+    width: 68%;
+    float: left;
+}
+
+#sidebar {
+    width: 28%;
+    float: right;
+}
+
+
+#footer {
+    color: #ffffff;
+    background-color: #000000;
+    clear: both;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*******************************************************
+TITULOS
+*******************************************************/
+h2 {
+    color: #ffffff;
+    background-color: #2e7d32;
+    padding: 12px 20px;
+    text-transform: uppercase;
+}
+
+
+h3 {
+    color: #0f4d1a;
+    background-color: #e8f5e9;
+    padding: 10px 15px;
+    border-left: 5px solid #2e7d32;
+}
+
+
+h4 {
+    color: #ffffff;
+    background-color: #333333;
+    text-align: center;
+    padding: 8px;
+}
+
+/*******************************************************
+CONTENIDO
+*******************************************************/
+p {
+    color: #333333;
+    line-height: 1.6;
+}
+
+pre {
+    background-color: #1c1c1c;
+    color: #f37021;
+    padding: 15px;
+    overflow-x: auto;
+}
+
+/*******************************************************
+CAJA DE DESCRIPCION
+*******************************************************/
+.description {
+    background-color: #e8f5e9;
+    color: #0f4d1a;
+    border: 2px solid #2e7d32;
+    padding: 25px;
+}
+
+
+/*******************************************************
+EXTRAS (BOTONES Y LINKS)
+*******************************************************/
+a {
+    color: #f37021;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+button {
+    background-color: #2e7d32;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0f4d1a;
+}
+
+
+button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
